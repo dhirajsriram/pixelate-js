@@ -1,0 +1,16 @@
+{
+  "name": "wallapaper",
+  "version": "1.0.0",
+  "description": "Generate a random pixelated wallpaper",
+  "main": "generateBg.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.4.1",
+    "chai": "^4.2.0",
+    "chai-files": "^1.4.0"
+  }
+}
