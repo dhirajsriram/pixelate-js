@@ -1,12 +1,12 @@
 {
-  "name": "wallapaper",
+  "name": "node-pixelate",
   "version": "1.0.0",
   "description": "Generate a random pixelated wallpaper",
   "main": "generateBg.js",
   "scripts": {
     "test": "mocha test/**/*.js"
   },
-  "author": "",
+  "author": "Dhiraj sriram <dhirajsriarm3194@gmail.com> (http://dhirajsriram.com)",
   "license": "ISC",
   "dependencies": {
     "canvas": "^2.4.1",
