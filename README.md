@@ -1,6 +1,6 @@
 # node-pixelate
 
-A node script that generates a random coloured pixelated wallpaper with an awesome JS logo at the center (Nothing complex just a straight forward image creation library)
+A node script that generates a random coloured pixelated wallpaper with an awesome JS logo at the center (Nothing complex just a straight forward image creation library) . Show your <3 for JavaScript
 
 ## Requirement
 
