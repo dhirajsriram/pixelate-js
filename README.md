@@ -65,6 +65,6 @@ npm run test
         })
 ```
 
-### Output
+## Output
 
 The output is generated inside the /output and named as output.png
