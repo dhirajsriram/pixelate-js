@@ -13,12 +13,14 @@ A node script that generates a random coloured pixelated wallpaper with an aweso
 ```
 npm install
 ```
+
 ### Dependencies required
 - "canvas": "^2.4.1",
 - "chai": "^4.2.0",
 - "chai-files": "^1.4.0"
 
 ## Testing
+
 ```
 npm run test
 ```
@@ -30,6 +32,7 @@ npm run test
 ## Snippets
 
 ### Generate pixels with the specified size and random colors
+
 ``` js
   for (let x = 0; x < width; x = x + pixelSize) {
             for (let y = 0; y < height; y = y + pixelSize) {
@@ -41,7 +44,9 @@ npm run test
             }
         }
 ```
+
 ### Autocomplete based on the array
+
 ``` js
  fs.readFile(__dirname + '/source/javascript.jpeg', function (err, data) {
             if (err) throw err;
@@ -59,3 +64,7 @@ npm run test
             });
         })
 ```
+
+### Output
+
+The output is generated inside the /output and named as output.png
