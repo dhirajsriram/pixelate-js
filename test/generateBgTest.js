@@ -1,8 +1,7 @@
 var expect = require('chai').expect;
-var chaiFiles = require('chai-files');
-var generateBg = require('../generateBg');
-
-var file = chaiFiles.file;
+var fs = require('fs');
+const path = require('path')
+const getColors = require('get-image-colors')
 
 function hasDuplicates(array) {
     return (new Set(array)).size !== array.length;
@@ -10,13 +9,16 @@ function hasDuplicates(array) {
 
 describe('Generate wallpaper', function () {
     it('should generate wallpaper in output folder', function () {
-        expect(file('../output/output.png')).to.exist
+        expect(fs.existsSync(__dirname + "/../output/output.png")).to.be.true
     });
-    it('should generate a non empty array of hexadecimal colors', function () {
-        expect(generateBg.length).to.not.equal(0);
+    it('should generate a non empty array of hexadecimal colors', async () => {
+        return getColors(path.join(__dirname + "/../output/output.png")).then(function(colors){
+            expect((colors.map(color => color.hex())).length).to.not.equal(0);
+        });
     });
     it('should generate an array of random hex', function () {
-        // Not necessarily True always , True in general
-        expect(hasDuplicates(generateBg)).to.be.equal(false);
+        return getColors(path.join(__dirname + "/../output/output.png")).then(function(colors){
+            expect(hasDuplicates(colors.map(color => color.hex()))).to.equal(false);
+        });
     });
   });
