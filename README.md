@@ -18,12 +18,26 @@ npm install
 - "canvas": "^2.4.1",
 - "chai": "^4.2.0",
 - "chai-files": "^1.4.0"
+- "get-image-colors": "^2.0.0"
+
+## Running
+
+```
+npm run start
+```
+- Type the width of the image when prompted (pixels)
+- Type the height of the image when prompted (pixels)
+- Type the size of the pixels in the backdrop when prompted (pixels)
+- Type the size of the js logo in the backdrop when prompted (pixels)
 
 ## Testing
 
 ```
 npm run test
 ```
+- Tests if the image is created
+- Scans the image to check if it has a pixelated backdrop
+- Checks if the colors in the background are random
 
 ## Example
 
