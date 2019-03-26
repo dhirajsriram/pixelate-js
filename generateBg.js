@@ -20,7 +20,7 @@ function generateBg() {
                 ctx.fillRect(x, y, pixelSize, pixelSize)
             }
         }
-        // creates a server with an image 
+        // Creates an image with pixelated colors as the background
         fs.readFile(__dirname + '/source/javascript.jpeg', function (err, data) {
             if (err) throw err;
             var img = new Canvas.Image; // Create a new Image
