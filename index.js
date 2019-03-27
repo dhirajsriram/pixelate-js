@@ -38,9 +38,9 @@ function generateBg(width, height, pixelSize, logoSize) {
         var img = canvas.toDataURL();
         var data = img.replace(/^data:image\/\w+;base64,/, "");
         var buf = Buffer.from(data, 'base64');
-        mkdirp(getDirName('output/output.png'), function (err) {
+        mkdirp(getDirName('output/pixelateJs.png'), function (err) {
             if (err) return cb(err);
-            fs.writeFileSync('output/output.png', buf);
+            fs.writeFileSync('output/pixelateJs.png', buf);
             console.log('\x1b[32m%s\x1b[0m', ' ✓ The file was generated in the /output folder');
         });
     })
