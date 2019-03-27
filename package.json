@@ -9,6 +9,7 @@
   },
   "author": "Dhiraj sriram <dhirajsriarm3194@gmail.com> (http://dhirajsriram.com)",
   "license": "ISC",
+  "keywords": ["node","pixels","wallaper","JS <3"],
   "dependencies": {
     "canvas": "^2.4.1",
     "chai": "^4.2.0",

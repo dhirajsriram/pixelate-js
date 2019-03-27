@@ -10,9 +10,18 @@ A node script that generates a random coloured pixelated wallpaper with an aweso
 
 ## Running
 
+- Import or do a require statement for pixelate-js in your application
+
+```js
+var pixelate = require("pixelate-js")
 ```
-npm run start
+
+- Run your node application as follows
+
 ```
+node <file-name>.js
+```
+
 - Type the width of the image when prompted (pixels)
 - Type the height of the image when prompted (pixels)
 - Type the size of the pixels in the backdrop when prompted (pixels)
@@ -20,9 +29,18 @@ npm run start
 
 ## Testing
 
+- To test the package navigate to module directory
+
+```
+cd .\node_modules\pixelate-js
+```
+
+- Use the command below
+
 ```
 npm run test
 ```
+
 - Tests if the image is created
 - Scans the image to check if it has a pixelated backdrop
 - Checks if the colors in the background are random
