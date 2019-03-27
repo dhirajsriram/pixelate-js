@@ -1,11 +1,11 @@
 {
-  "name": "pixelate-js",
+  "name": "pixelify-js",
   "version": "1.0.0",
   "description": "Generate a random pixelated wallpaper",
   "main": "generateBg.js",
   "scripts": {
-    "start":"node generateBackground.js",
-    "test": "node generateBackground && mocha test/**/*.js"
+    "start":"node index.js",
+    "test": "node index.js && mocha test/**/*.js"
   },
   "author": "Dhiraj sriram <dhirajsriarm3194@gmail.com> (http://dhirajsriram.com)",
   "license": "ISC",
