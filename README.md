@@ -1,4 +1,4 @@
-# pixelify-js
+# pixelate-js
 
 A node script that generates a random coloured pixelated wallpaper with an awesome JS logo at the center (Nothing complex just a straight forward image creation library) . Show your 💗 for JavaScript
 
