@@ -66,3 +66,5 @@ npm run test
 ## Output
 
 The output is generated inside the /output and named as output.png
+
+![alt text](http://url/to/img.png)
