@@ -73,9 +73,9 @@ npm run test
             var img = canvas.toDataURL();
             var data = img.replace(/^data:image\/\w+;base64,/, "");
             var buf = Buffer.from(data, 'base64');
-            mkdirp(getDirName('output/output.png'), function (err) {
+            mkdirp(getDirName('output/pixelateJs.png'), function (err) {
                 if (err) return cb(err);
-            fs.writeFileSync('output/output.png', buf);
+            fs.writeFileSync('output/pixelateJs.png', buf);
             console.log("The file is generated inside the /output folder");
             });
         })
@@ -83,6 +83,6 @@ npm run test
 
 ## Output
 
-The output is generated inside the /output and named as output.png
+The output is generated inside the /output and named as pixelateJs.png
 
-![alt text](https://github.com/dhirajsriram/node-pixelate/blob/master/output/output.png?raw=true)
+![alt text](https://github.com/dhirajsriram/node-pixelate/blob/master/output/pixelateJs.png?raw=true)
