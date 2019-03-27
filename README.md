@@ -67,4 +67,4 @@ npm run test
 
 The output is generated inside the /output and named as output.png
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/dhirajsriram/node-pixelate/blob/master/output/output.png?raw=true)
