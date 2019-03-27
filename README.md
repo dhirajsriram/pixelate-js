@@ -1,20 +1,8 @@
-# node-pixelate
+# pixelate-js
 
 A node script that generates a random coloured pixelated wallpaper with an awesome JS logo at the center (Nothing complex just a straight forward image creation library) . Show your 💗 for JavaScript
 
-## Requirement
-
-- Node
-- Canvas
-- Mocha
-
-## Installation
-
-```
-npm install
-```
-
-### Dependencies required
+## Dependencies required
 - "canvas": "^2.4.1",
 - "chai": "^4.2.0",
 - "chai-files": "^1.4.0"
@@ -38,10 +26,6 @@ npm run test
 - Tests if the image is created
 - Scans the image to check if it has a pixelated backdrop
 - Checks if the colors in the background are random
-
-## Example
-
-![alt text](/output/output.png)
 
 ## Snippets
 

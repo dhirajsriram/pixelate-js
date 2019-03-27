@@ -1,5 +1,5 @@
 {
-  "name": "node-pixelate",
+  "name": "pixelate-js",
   "version": "1.0.0",
   "description": "Generate a random pixelated wallpaper",
   "main": "generateBg.js",
