@@ -1,15 +1,20 @@
 {
-  "name": "pixelify-js",
+  "name": "pixelate-js",
   "version": "1.0.0",
   "description": "Generate a random pixelated wallpaper",
   "main": "generateBg.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "node index.js && mocha test/**/*.js"
   },
   "author": "Dhiraj sriram <dhirajsriarm3194@gmail.com> (http://dhirajsriram.com)",
   "license": "ISC",
-  "keywords": ["node","pixels","wallaper","JS <3"],
+  "keywords": [
+    "node",
+    "pixels",
+    "wallaper",
+    "JS <3"
+  ],
   "dependencies": {
     "canvas": "^2.4.1",
     "chai": "^4.2.0",
