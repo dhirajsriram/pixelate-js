@@ -1,11 +1,15 @@
 {
   "name": "pixelate-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate a random pixelated wallpaper",
-  "main": "generateBg.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node index.js && mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhirajsriram/pixelate-js.git"
   },
   "author": "Dhiraj sriram <dhirajsriarm3194@gmail.com> (http://dhirajsriram.com)",
   "license": "ISC",
